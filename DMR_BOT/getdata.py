@@ -172,11 +172,11 @@ def get_data(date):
         
     print(id_list)
     
-    file_path = r"C:\test_put_file"
+    file_path = r"\\172.16.103.201\CSS_Debt_Plugin\DMS_Report\DMRTH004"
     new_path = r"C:\Users\chayakor\Desktop\DMR_BOT\BC"
-    assign_id = ['671000155', '671000156', '671000157']
+    # assign_id = ['671000155', '671000156', '671000157']
     
-    missing_files = assign_id.copy()
+    missing_files = id_list.copy()
 
     while missing_files:
         for id in missing_files:
